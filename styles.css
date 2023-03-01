@@ -1,0 +1,67 @@
+body{
+        background: linear-gradient(white,aqua);
+}
+table{
+
+        width:100%;
+}
+
+td{
+        text-align: center;
+}
+
+th,td{
+        padding: 15px;
+
+}
+
+th{
+        background-color: darkblue;
+        color:white;
+}
+.box{
+        margin-top:10px;
+        margin-left:10px;
+        margin-bottom: 10px;
+        height: 30px;
+        width: 200px;
+}
+.btn{
+        margin-bottom:-10px;
+        height:30px;
+        width: 80px;
+}
+ul{
+        background-color: white;
+        padding:20px;
+}
+ul li{
+        paddin:20px;
+        margin:20px;
+        display:inline;
+}
+ul li a{
+        text-decoration:none;
+}
+ul li:hover{
+        padding:30px;
+}
+p{
+        font-size: 30px;
+        text-align:center;
+
+}
+.grey{
+        background-color: rgb(211,211,211,50);
+}
+
+.blue
+{
+ background-color:red;
+}
+h1
+{
+        margin:0;
+        background-color:purple;
+        font-size: 60px;
+}
