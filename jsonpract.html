@@ -1,0 +1,43 @@
+<html>
+<head>
+<h2> display data </h2>
+<script>
+function Json()
+{
+var students=[
+		{
+		    "stud_ID":"RVCE22MCA045",
+		    "Name":"VJ",
+                     "Major":"MCA",
+                     "mobile":"12345"
+		},
+		 {
+                    "stud_ID":"RVCE22MCA045",
+                    "Name":"VJ",
+                     "Major":"MCA",
+                     "mobile":"12345"
+                },
+		 {
+                    "stud_ID":"RVCE22MCA045",
+                    "Name":"VJ",
+                     "Major":"MCA",
+                     "mobile":"12345"
+                },
+	     ]
+var tableBody = '<table border="1"><tr><td> ID </td><td> Name </td><td> Major</td><td>mobile</td></tr>'
+students.forEach(function(d){
+
+tableBody += '<tr><td>'+d.stud_ID+'</td><td>'+d.Name+'</td><td>'+d.Major+'</td><td>'+d.mobile+'</td></tr>'
+});
+tableBody += '<table>';
+var divcontainer=document.getElementById("showdata")
+divcontainer.innerHTML=tableBody;
+}
+</script>
+</head>
+<body>
+<button type="button" Onclick="Json()" value="value from json">submit</button>
+<p id="showdata"></p>
+</body>
+</html>
+
